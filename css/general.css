@@ -1,0 +1,13 @@
+/*CHANGE LOGO MD*/
+@media screen and (max-width: 1155px) {
+  .logo {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1155px) {
+  .logo2 {
+    display: none;
+    background-repeat: no-repeat;
+  }
+}
