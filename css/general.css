@@ -1,4 +1,9 @@
-/*CHANGE LOGO MD*/
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/*CHANGE LOGO NAVBAR MD*/
 @media screen and (max-width: 1155px) {
   .logo {
     display: none;
@@ -10,4 +15,36 @@
     display: none;
     background-repeat: no-repeat;
   }
+}
+
+/************************************************************************************************************************************/
+/*INICIO*/
+/************************************************************************************************************************************/
+
+/*CARRUSEL*/
+@media screen and (min-width: 1155px) {
+  .carousel {
+    width: 75% !important;
+  }
+}
+@media screen and (max-width: 1155px) {
+  .carousel {
+    width: 100% !important;
+  }
+}
+
+/************************************************************************************************************************************/
+/*PRODUCTOS*/
+/************************************************************************************************************************************/
+
+/*HOVER*/
+.card-img-top {
+  transition: transform 0.3s;
+}
+.card-img-top:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.hiddenEffect {
+  overflow: hidden;
 }
