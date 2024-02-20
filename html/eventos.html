@@ -20,19 +20,23 @@
     />
   </head>
 
-  <body class="vh-100 vw-100">
-    <div class="container-fluid px-0 py-0">
+  <body class="vh-100">
+    <div class="container-fluid px-0">
       <!--NAV-->
       <nav class="navbar navbar-expand-lg bg-dark sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"></a>
           <div class="ml-5">
-            <a href="#">
-              <img src="../img/blackworks-logo.jpg" class="logo" alt="Logo" />
+            <a href="inicio.html">
+              <img
+                src="../img/blackworks-logo.jpg"
+                class="logo"
+                alt="Logo de la marca Blackworks"
+              />
               <img
                 src="../img/blackworks-logo2.png"
                 class="logo2"
-                alt="Logo 2"
+                alt="Logo de la marca Blackworks"
               />
             </a>
           </div>
@@ -49,27 +53,67 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link px-5 text-light" href="inicio.html">Inicio</a>
-              <a class="nav-link px-5 text-light" href="historia.html"
+              <a class="nav-link px-lg-5 text-light" href="historia.html"
                 >Historia</a
               >
               <a
-                class="nav-link px-5 active text-danger"
+                class="nav-link px-lg-5 active text-danger"
                 aria-current="page"
                 href="eventos.html"
                 >Eventos</a
               >
-              <a class="nav-link px-5 text-light" href="productos.html"
+              <a class="nav-link px-lg-5 text-light" href="productos.html"
                 >Merch</a
               >
-              <a class="nav-link px-5 text-light" href="contacto.html"
+              <a class="nav-link px-lg-5 text-light" href="contacto.html"
                 >Contacto</a
               >
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-3 searchInput"
+                  type="search"
+                  placeholder="Buscar"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-danger" type="submit">
+                  Buscar
+                </button>
+              </form>
             </div>
           </div>
         </div>
       </nav>
       <main>
+        <section class="bg-danger-subtle">
+          <div class="container py-5">
+            <h1 class="font-weight-bolds text-center">
+              ¡Consigue tu Pase a la Experiencia Definitiva!
+            </h1>
+            <hr />
+            <p class="lead styleEventos">
+              Bienvenido al portal de venta de entradas de Blackworks, tu
+              pasaporte a la vibrante y emocionante escena de la música
+              electrónica. Aquí es donde comienza tu viaje hacia los eventos más
+              electrizantes y los festivales más épicos de la escena hard
+              techno. Sumérgete en un mundo de ritmos atronadores, luces
+              deslumbrantes y una energía inigualable mientras te unes a la
+              comunidad Blackworks en sus experiencias únicas y memorables.
+            </p>
+            <p class="lead styleEventos">
+              Explora nuestra selección de entradas cuidadosamente curadas,
+              desde accesos generales hasta experiencias VIP exclusivas que te
+              asegurarán una experiencia inolvidable en la pista de baile. Con
+              un proceso de compra sencillo y seguro, estamos aquí para hacer
+              que asegurar tu lugar en los eventos más esperados del año sea tan
+              emocionante como el propio espectáculo.
+            </p>
+            <p class="lead styleEventos">
+              No te pierdas la oportunidad de ser parte de la fiesta. ¡Obtén tu
+              entrada ahora y prepárate para vivir momentos que te dejarán sin
+              aliento!
+            </p>
+          </div>
+        </section>
         <section class="eventBg">
           <div class="container py-5">
             <div class="row py-4">
@@ -77,15 +121,15 @@
                 <div class="image-container">
                   <img
                     src="../img/eventos-1.png"
-                    alt="Blackworks La Riviera 20/01/2024"
+                    alt="Cartel de anuncio de Blackworks La Riviera 20/01/2024"
                     class="img-fluid"
                   />
                   <div class="event-info text-center">
-                    <h2>
-                      20 JANUARY 2024 <br />
-                      LA RIVIERA – MADRID
-                    </h2>
-                    <a href="#" class="btn btn-danger btn-lg btn-tickets"
+                    <h2>20 JANUARY 2024</h2>
+                    <h4 class="text-danger">LA RIVIERA – MADRID</h4>
+                    <a
+                      href="#"
+                      class="btn btn-danger btn-lg btn-tickets text-center"
                       >Tickets</a
                     >
                   </div>
@@ -95,14 +139,12 @@
                 <div class="image-container">
                   <img
                     src="../img/eventos-2.png"
-                    alt="Blackworks Brooklyn NY 02/01/2024 & 03/01/2024"
+                    alt="Cartel de anuncio de Blackworks Brooklyn NY 02/01/2024 & 03/01/2024"
                     class="img-fluid"
                   />
                   <div class="event-info text-center">
-                    <h2>
-                      2 + 3 FEBRUARY 2024 <br />
-                      BROOKLYN – NEW YORK
-                    </h2>
+                    <h2>2 + 3 FEBRUARY 2024</h2>
+                    <h4 class="text-danger">BROOKLYN – NEW YORK</h4>
                     <a href="#" class="btn btn-danger btn-lg btn-tickets"
                       >Tickets</a
                     >
@@ -115,14 +157,12 @@
                 <div class="image-container">
                   <img
                     src="../img/eventos-3.png"
-                    alt="Blackworks Medellín 02/02/2024, 09/02/2024 & 10/02/2024"
+                    alt="Cartel de anuncio de Blackworks Medellín 02/02/2024, 09/02/2024 & 10/02/2024"
                     class="img-fluid"
                   />
                   <div class="event-info text-center">
-                    <h2>
-                      2 + 9 + 10 FEBRUARY 2024 <br />
-                      MEDELLÍN – COLOMBIA
-                    </h2>
+                    <h2>2 + 9 + 10 FEBRUARY 2024</h2>
+                    <h4 class="text-danger">MEDELLÍN – COLOMBIA</h4>
                     <a href="#" class="btn btn-danger btn-lg btn-tickets"
                       >Tickets</a
                     >
@@ -133,14 +173,12 @@
                 <div class="image-container">
                   <img
                     src="../img/eventos-4.png"
-                    alt="Blackworks Vigo 12/02/2024"
+                    alt="Cartel de anuncio de Blackworks Vigo 12/02/2024"
                     class="img-fluid"
                   />
                   <div class="event-info text-center">
-                    <h2>
-                      12 FEBRUARY 2024 <br />
-                      SALA QUEEN – VIGO
-                    </h2>
+                    <h2>12 FEBRUARY 2024</h2>
+                    <h4 class="text-danger">SALA QUEEN – VIGO</h4>
                     <a href="#" class="btn btn-danger btn-lg btn-tickets"
                       >Tickets</a
                     >
@@ -153,14 +191,12 @@
                 <div class="image-container">
                   <img
                     src="../img/eventos-5.png"
-                    alt="Blackworks Vitoria 24/02/2024"
+                    alt="Cartel de anuncio de Blackworks Vitoria 24/02/2024"
                     class="img-fluid"
                   />
                   <div class="event-info text-center">
-                    <h2>
-                      24 FEBRUARY 2024 <br />
-                      BUESA ARENA – VITORIA
-                    </h2>
+                    <h2>24 FEBRUARY 2024</h2>
+                    <h4 class="text-danger">BUESA ARENA – VITORIA</h4>
                     <a href="#" class="btn btn-danger btn-lg btn-tickets"
                       >Tickets</a
                     >
@@ -171,14 +207,12 @@
                 <div class="image-container">
                   <img
                     src="../img/eventos-6.png"
-                    alt="Blackworks Amsterdam 09/03/2024"
+                    alt="Cartel de anuncio de Blackworks Amsterdam 09/03/2024"
                     class="img-fluid"
                   />
                   <div class="event-info text-center">
-                    <h2>
-                      9 MARCH 2024 <br />
-                      AFAS LIVE – AMSTERDAM
-                    </h2>
+                    <h2>9 MARCH 2024</h2>
+                    <h4 class="text-danger">AFAS LIVE – AMSTERDAM</h4>
                     <a href="#" class="btn btn-danger btn-lg btn-tickets"
                       >Tickets</a
                     >

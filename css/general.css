@@ -4,16 +4,22 @@ html {
 }
 
 /*CHANGE LOGO NAVBAR MD*/
-@media screen and (max-width: 1155px) {
+@media screen and (max-width: 1236px) {
   .logo {
     display: none;
   }
 }
 
-@media screen and (min-width: 1155px) {
+@media screen and (min-width: 1237px) {
   .logo2 {
     display: none;
     background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .searchInput {
+    max-width: 30%;
   }
 }
 
@@ -31,6 +37,10 @@ html {
   }
 }
 
+.styleInicio {
+  text-align: justify;
+}
+
 /************************************************************************************************************************************/
 /*HISTORIA*/
 /************************************************************************************************************************************/
@@ -38,6 +48,10 @@ html {
   width: 100%;
   max-width: 30em;
   margin: 0 auto;
+}
+
+.styleHistory {
+  text-align: justify;
 }
 
 @media screen and (max-width: 768px) {
@@ -58,11 +72,15 @@ html {
   background-size: cover;
 }
 
-.event-info h2 {
+.event-info {
   /*0.8 de opacidad*/
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 15px;
+  padding: 3%;
   border-radius: 20px;
+}
+
+.styleEventos {
+  text-align: justify;
 }
 
 /*HOVER*/

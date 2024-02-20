@@ -20,19 +20,23 @@
     />
   </head>
 
-  <body class="vh-100 vw-100">
-    <div class="container-fluid px-0 py-0">
+  <body class="vh-100">
+    <div class="container-fluid px-0">
       <!--NAV-->
       <nav class="navbar navbar-expand-lg bg-dark sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"></a>
           <div class="ml-5">
-            <a href="#">
-              <img src="../img/blackworks-logo.jpg" class="logo" alt="Logo" />
+            <a href="inicio.html">
+              <img
+                src="../img/blackworks-logo.jpg"
+                class="logo"
+                alt="Logo de la marca Blackworks"
+              />
               <img
                 src="../img/blackworks-logo2.png"
                 class="logo2"
-                alt="Logo 2"
+                alt="Logo de la marca Blackworks"
               />
             </a>
           </div>
@@ -49,22 +53,32 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link px-5 text-light" href="inicio.html">Inicio</a>
-              <a class="nav-link px-5 text-light" href="historia.html"
+              <a class="nav-link px-lg-5 text-light" href="historia.html"
                 >Historia</a
               >
-              <a class="nav-link px-5 text-light" href="eventos.html"
+              <a class="nav-link px-lg-5 text-light" href="eventos.html"
                 >Eventos</a
               >
-              <a class="nav-link px-5 text-light" href="productos.html"
+              <a class="nav-link px-lg-5 text-light" href="productos.html"
                 >Merch</a
               >
               <a
-                class="nav-link px-5 active text-danger"
+                class="nav-link px-lg-5 active text-danger"
                 aria-current="page"
                 href="contacto.html"
                 >Contacto</a
               >
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-3 searchInput"
+                  type="search"
+                  placeholder="Buscar"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-danger" type="submit">
+                  Buscar
+                </button>
+              </form>
             </div>
           </div>
         </div>
@@ -72,41 +86,41 @@
       <main class="bg-danger-subtle">
         <section>
           <!--ARTICLE-->
-          <article>
-            <div class="py-5">
-              <h2 class="h2Contact mb-3 text-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="30"
-                  fill="currentColor"
-                  class="bi bi-file-text"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M5 4a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1H5z"
-                  />
-                  <path
-                    d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"
-                  />
-                </svg>
-                ¡Ayúdanos a mejorar e inscríbete a nuestra newsletter!
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="30"
-                  fill="currentColor"
-                  class="bi bi-file-text"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M5 4a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1H5z"
-                  />
-                  <path
-                    d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"
-                  />
-                </svg>
-              </h2>
+          <article class="row">
+            <h1 class="h2Contact py-4 text-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-file-text"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M5 4a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1H5z"
+                />
+                <path
+                  d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"
+                />
+              </svg>
+              ¡Ayúdanos a mejorar e inscríbete a nuestra newsletter!
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-file-text"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M5 4a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1H5z"
+                />
+                <path
+                  d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"
+                />
+              </svg>
+            </h1>
+            <div class="py-4 col-lg-6 col-md-12">
               <div class="container text-dark">
                 <form>
                   <div class="mb-3">
@@ -160,6 +174,13 @@
                   </div>
                 </form>
               </div>
+            </div>
+            <div class="py-4 col-lg-6 col-md-12">
+              <img
+                src="../img/carrusel2.jpg"
+                alt="Festival Blackworks La Riviera con Trym como DJ pinchando"
+                class="img-fluid rounded"
+              />
             </div>
           </article>
         </section>
